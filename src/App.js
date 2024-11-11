@@ -8,8 +8,8 @@ function Navbar() {
   return (
     <div className='navbar'>
       <ul>
-        <li><Link className='navbarElements' to="/">Home</Link></li>
-        <li><Link className='navbarElements' to="/cars">Cars</Link></li>
+        <li><Link className='navbarElements' to="/car-rental/">Home</Link></li>
+        <li><Link className='navbarElements' to="/car-rental/cars">Cars</Link></li>
       </ul>
     </div>
   );
@@ -22,8 +22,8 @@ export default function App() {
         <Navbar />
         <div className='main'>
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/cars' element={<Cars />} />
+            <Route path='/car-rental/' element={<Home />} />
+            <Route path='/car-rental/cars' element={<Cars />} />
           </Routes>
         </div>
       </Router>
