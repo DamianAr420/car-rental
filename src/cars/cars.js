@@ -32,7 +32,7 @@ export default function Cars() {
         {filteredCars.map((car, index) => (
           <li key={index}>
             <img 
-              src={`/imgs/${car.brand}-${car.model}-${car.year}.jpg`} 
+              src={`imgs/${car.brand}-${car.model}-${car.year}.jpg`} 
               alt={`${car.brand} ${car.model}`} 
             />
             <h1>{`${car.brand} ${car.model}`}</h1>
