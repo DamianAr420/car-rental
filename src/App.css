@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #004E64;
+  display: flex;
+}
+
+.navbar ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarElements {
+  font-size: 150%;
+  font-weight: bold;
+  color: #111;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.navbarElements:hover {
+  background-color: #007697;
+}
+
+.main {
+  width: 100%;
+}
