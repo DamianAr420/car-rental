@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./cars.css";
+import { Link } from "react-router-dom";
 
 export default function Cars() {
   const [cars] = useState([
@@ -37,7 +38,7 @@ export default function Cars() {
             />
             <h1>{`${car.brand} ${car.model}`}</h1>
             <p>{car.year}</p>
-            <button>Check now</button>
+            <Link className='carsLink' to={`/cars/${car.brand}/${car.model}/${car.year}`}>Check now</Link>
           </li>
         ))}
       </ul>

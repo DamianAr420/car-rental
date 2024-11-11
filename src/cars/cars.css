@@ -62,12 +62,13 @@
     color: #666;
 }
 
-.cars li button {
+.carsLink {
     margin-top: 15px;
     padding: 10px 20px;
     border: 2px solid #FF6B35;
     background-color: #FF6B35;
     color: white;
+    text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
     border-radius: 4px;
@@ -75,7 +76,7 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.cars li button:hover {
+.carsLink:hover {
     background-color: #FFF3E6;
     color: #FF6B35;
 }

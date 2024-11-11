@@ -1,0 +1,39 @@
+.car-details {
+    padding: 20px;
+}
+  
+.car-details img {
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.technicalData {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.technicalData h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.data {
+    background-color: #ff6b359a;
+    padding-bottom: 5px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.data h2 {
+    padding: 15px;
+    background-color: #FF6B35;
+    font-size: 200%;
+}
+
+.data p {
+    margin-left: 5px;
+    font-size: 150%;
+}
