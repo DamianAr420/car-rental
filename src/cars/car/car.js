@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./car.css";
 
 export default function Car() {
@@ -20,6 +21,7 @@ export default function Car() {
             <p>Year: {year}</p>
         </div>
       </div>
+      <Link className='rent' to={`/cars/${brand}/${model}/${year}/rent`}>Rent Now</Link>
     </div>
   );
 }

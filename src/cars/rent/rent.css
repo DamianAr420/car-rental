@@ -1,0 +1,79 @@
+.selected-date {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 50%;
+}
+
+h1 {
+    width: 90vw;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #FF6B35;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cal {
+    margin: 0 auto;
+}
+
+.dates {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dates ul {
+    width: 50%;
+    margin: 0 auto 20px auto;
+    background-color: #FF6B35;
+    border-radius: 10px;
+}
+
+.dates li {
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.dates li::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 1px;
+    background-color: #fff;
+    margin: 5px auto 0 auto;
+}
+
+.dates li:first-child {
+    border-top-right-radius: 10px;
+}
+
+.dates li:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.submitRent {
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #FF6B35;
+    border-radius: 15px;
+    background-color: #FF6B35;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.submitRent:hover {
+    background-color: transparent;
+    color: #FF6B35;
+}
+
+@media screen and (max-width: 700px) {
+    .dates {
+        width: 90%;
+    }
+}

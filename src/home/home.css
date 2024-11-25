@@ -1,0 +1,25 @@
+.headerHome {
+    width: 100vw;
+    background-color: #ff6b359a;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+}
+
+.info {
+    width: 80vw;
+    margin: 20px auto;
+    text-align: center;
+    border-top: 2px solid #ff6b359a;
+    border-bottom: 2px solid #ff6b359a;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 645px) {
+    .headerHome {
+        line-height: normal;
+        font-size: 2rem;
+        padding: 20px 0;
+    }
+}

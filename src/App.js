@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from "./home/home";
 import Cars from "./cars/cars";
 import Car from "./cars/car/car";
+import Rent from "./cars/rent/rent";
 import "./App.css";
 
 function Navbar() {
@@ -25,6 +26,7 @@ export default function App() {
           <Route path='/' element={<Home />} />
           <Route path='/cars' element={<Cars />} />
           <Route path="/cars/:brand/:model/:year" element={<Car />} />
+          <Route path="/cars/:brand/:model/:year/rent" element={<Rent />} />
         </Routes>
       </div>
     </div>
